@@ -15,7 +15,6 @@
                 "description": "Introduction to Building Packer images on OCI",
                 "labels": {""}
             },
-           
             {
                 "number": "100",
                 "filename": "Lab100.md",
@@ -28,6 +27,27 @@
                 "filename": "Lab200.md",
                 "title": "Linux Lab 200: AlphaOffice Deployment",
                 "description": "Multi-container Application deployment using a Database",
+                "labels": {"version": "Linux Trial Account"}
+            },
+            {
+                "number": "300",
+                "filename": "Lab300.md",
+                "title": "Linux Lab 200: AlphaOffice Deployment",
+                "description": "Concepts, commands and a simple deployment",
+                "labels": {"version": "Linux Trial Account"}
+            },
+            {
+                "number": "400",
+                "filename": "Lab400.md",
+                "title": "Linux Lab 400: File movement and OS configuration",
+                "description": "",
+                "labels": {"version": "Linux Trial Account"}
+            }
+            {
+                "number": "500",
+                "filename": "Lab500.md",
+                "title": "Linux Lab 500: Complex Deployment",
+                "description": "",
                 "labels": {"version": "Linux Trial Account"}
             }
         ]
