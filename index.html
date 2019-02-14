@@ -25,10 +25,10 @@
         return str.replace(new RegExp(find, 'g'), replace);
     }
     
-  var mdContent = '';  $.ajax('https://derekoneil.github.io/JCSPiplelineStackManager/JCSPipelineStackManager100.md')
+  var mdContent = '';  $.ajax('https://richardwark.github.io/packer-oci/Lab100.md')
     .done(function(msg) {
         mdContent = msg;
-      mdContent = replaceAll(mdContent, /\(images\//g, '(https://derekoneil.github.io/JCSPiplelineStackManager/images/');
+      mdContent = replaceAll(mdContent, /\(images\//g, '(https://richardwark.github.io/packer-oci/images/');
       var converter = new showdown.Converter(),
     text      = mdContent,
     html      = converter.makeHtml(text);
