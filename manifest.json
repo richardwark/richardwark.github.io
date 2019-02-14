@@ -3,10 +3,6 @@
         "title": "Packer Workshop",
         "description": "These labs will give you a basic understanding of Packer concepts and deployments",
         "interactive":"https://launch.oracle.com/?packer-workshop",
-        "versions": [
-            {
-            }
-        ],
         "labs": [
             {
                 "number": "0",
